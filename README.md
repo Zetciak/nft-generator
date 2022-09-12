@@ -1,4 +1,16 @@
-NFT Generator coded by Zetty / Part of my portfolio
+## Info
+NFT Generator, generate your NFT images and metadata
+
+## Usage
+Node.js: v16.14.0
+
+Install all packages
+
+```sh
+npm install
+```
+
+Fill traits files and informations in index.js file
 
 ## Authors
 
