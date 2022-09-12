@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bamboo"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Drone"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Army"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloodshot"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy Tongue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Skulls Bandana"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Military Uniform"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "California Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=62",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/62.png",
+  "name": "Stargators #62"
+}

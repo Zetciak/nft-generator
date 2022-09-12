@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "River"
+    },
+    {
+      "trait_type": "Back",
+      "value": "None"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "K.O"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy Tongue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Old School Peaky Blinders"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "3D Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=25",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/25.png",
+  "name": "Stargators #25"
+}

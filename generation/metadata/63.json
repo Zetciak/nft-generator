@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Safari"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Dragon Pet"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Tattoos"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Ordinary"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "None"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Fury Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "3D Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=63",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/63.png",
+  "name": "Stargators #63"
+}

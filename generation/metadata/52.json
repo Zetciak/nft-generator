@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "River"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Ninja swords"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fish"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "None"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Military Uniform"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "None"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=52",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/52.png",
+  "name": "Stargators #52"
+}

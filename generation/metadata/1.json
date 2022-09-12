@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "River"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Rocket"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Diamond"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Tattoos"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angry Roar"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Diamond Hoop"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "StarGators Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Gators Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=1",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/1.png",
+  "name": "Stargators #1"
+}

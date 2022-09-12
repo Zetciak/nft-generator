@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Swamp"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Dragon Pet"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ordinary"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Saliva"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Skulls Bandana"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Gators Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=50",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/50.png",
+  "name": "Stargators #50"
+}

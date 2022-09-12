@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bamboo"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Sniper"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angry Roar"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "La costa Bucket Hat"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "California Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=3",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/3.png",
+  "name": "Stargators #3"
+}

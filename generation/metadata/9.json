@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Jungle"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Rocket"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Army"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fish"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Pirate Hat"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Gray Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "None"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=9",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/9.png",
+  "name": "Stargators #9"
+}

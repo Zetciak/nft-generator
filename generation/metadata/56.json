@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Jungle"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Rocket"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Tiger"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Poker"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Money"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Old School Peaky Blinders"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Puffer Vest"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Night Vision"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=56",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/56.png",
+  "name": "Stargators #56"
+}

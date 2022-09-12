@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Swamp"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Barbells"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Golden"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Peaky Blinders"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "StarGators Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Gators Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=38",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/38.png",
+  "name": "Stargators #38"
+}

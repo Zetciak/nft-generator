@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Jungle"
+    },
+    {
+      "trait_type": "Back",
+      "value": "M4"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ordinary"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Steak"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Peaky Blinders"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Fury Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "3D Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=61",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/61.png",
+  "name": "Stargators #61"
+}

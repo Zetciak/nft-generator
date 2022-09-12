@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Safari"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Microphones"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Army"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "K.O"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angry Roar"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Horns"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Baseball Jacket"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Thug Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=19",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/19.png",
+  "name": "Stargators #19"
+}

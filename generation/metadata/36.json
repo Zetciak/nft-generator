@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Safari"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Cosmo Rifle"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Army"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloodshot"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Soviet Hat"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Military Uniform"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Gators Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=36",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/36.png",
+  "name": "Stargators #36"
+}

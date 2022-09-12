@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Space"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Dragon Pet"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Army"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fish"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Peaky Blinders"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Gray Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "3D Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=43",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/43.png",
+  "name": "Stargators #43"
+}

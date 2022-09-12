@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "OG BG"
+    },
+    {
+      "trait_type": "Back",
+      "value": "OG BACK"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "OG SKIN"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "OG NECK"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "OG EYES"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "OG MOUTH"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "OG HAT"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "OG CLOTHES"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "OG EYES ITEM"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=15",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/15.png",
+  "name": "Stargators #15"
+}

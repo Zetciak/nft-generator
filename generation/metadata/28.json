@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "City"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Drone"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy Tongue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Cooker Hat"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "StarGators Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "California Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=28",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/28.png",
+  "name": "Stargators #28"
+}

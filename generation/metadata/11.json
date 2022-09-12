@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Swamp"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Stargaze Flag"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Tattoos"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hypnotic"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy Tongue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Angel Halo"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Suit"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "3D Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=11",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/11.png",
+  "name": "Stargators #11"
+}

@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Space"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Rocket"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Saliva"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Cables"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "StarGators Hoodie"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "None"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=2",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/2.png",
+  "name": "Stargators #2"
+}

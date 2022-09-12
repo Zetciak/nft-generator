@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "River"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Drone"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Tattoos"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Saliva"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Beer Tank"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Suit"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Thug Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=32",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/32.png",
+  "name": "Stargators #32"
+}

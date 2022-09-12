@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Space"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Sniper"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Tattoos"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ordinary"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy Tongue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Cables"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "California Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=58",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/58.png",
+  "name": "Stargators #58"
+}

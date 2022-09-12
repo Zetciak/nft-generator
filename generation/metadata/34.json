@@ -1,0 +1,44 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Safari"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Microphones"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Army"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "K.O"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Golden"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Pirate Hat"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Streetwear Cloak"
+    },
+    {
+      "trait_type": "Eyes Item",
+      "value": "Gators Glasses"
+    }
+  ],
+  "description": "TEST",
+  "external_url": "https://example.com/?token_id=34",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/34.png",
+  "name": "Stargators #34"
+}

@@ -1,107 +1,167 @@
 // >> Config
 let traitsRarity = {
 	Background: {
-		Blue: 10,
-		Cream: 10,
-		Cyan: 10,
-		Dusty: 10,
-		Gray: 10,
-		Lime: 10,
-		Mint: 10,
-		Pink: 10,
-		Purple: 10,
-		Yellow: 10,
+		Bamboo: 12.5,
+		City: 12.5,
+		Jungle: 12.5,
+		River: 12.5,
+		Safari: 12.5,
+		Space: 12.5,
+		Swamp: 12.5,
+		Waterfall: 12.5,
 	},
+
+	Back: {
+		'AK 47': 7.14,
+		Barbells: 7.14,
+		'Cosmo Rifle': 7.14,
+		'Dragon Pet': 7.14,
+		Drone: 7.14,
+		M4: 7.14,
+		Microphones: 7.14,
+		'Ninja swords': 7.14,
+		None: 7.14,
+		Rocket: 7.14,
+		Skis: 7.14,
+		Sniper: 7.14,
+		'Stargaze Flag': 7.14,
+		Tentacles: 7.14,
+	},
+
 	Clothes: {
-		Clothes1: 10,
-		Clothes2: 10,
-		Clothes3: 10,
-		Clothes4: 10,
-		Clothes5: 10,
-		Clothes6: 10,
-		Clothes7: 10,
-		Clothes8: 10,
-		Clothes9: 10,
-		Clothes10: 10,
+		'Baseball Jacket': 9.09,
+		'Bulletproof Vest': 9.09,
+		'Fury Hoodie': 9.09,
+		'Gray Hoodie': 9.09,
+		'Leather Jacket': 9.09,
+		'Military Uniform': 9.09,
+		'Puffer Vest': 9.09,
+		'StarGators Hoodie': 9.09,
+		'Streetwear Cloak': 9.09,
+		Suit: 9.09,
+		'Unzipped Hoodie': 9.09,
 	},
+
 	Eyes: {
-		Eyes1: 10,
-		Eyes2: 10,
-		Eyes3: 10,
-		Eyes4: 10,
-		Eyes5: 10,
-		Eyes6: 10,
-		Eyes7: 10,
-		Eyes8: 10,
-		Eyes9: 10,
-		Eyes10: 10,
+		Angry: 11.11,
+		Big: 11.11,
+		Bloodshot: 11.11,
+		Hypnotic: 11.11,
+		'K.O': 11.11,
+		Laser: 11.11,
+		Ordinary: 11.11,
+		//Pirate: 11.11,
+		Poker: 11.11,
 	},
-	Genesis: {
-		Genesis1: 10,
-		Genesis2: 10,
-		Genesis3: 10,
-		Genesis4: 10,
-		Genesis5: 10,
-		Genesis6: 10,
-		Genesis7: 10,
-		Genesis8: 10,
-		Genesis9: 10,
-		Genesis10: 10,
+
+	'Eyes Item': {
+		'3D Glasses': 14.28,
+		'California Glasses': 14.28,
+		'Gators Glasses': 14.28,
+		'Night Vision': 14.28,
+		None: 14.28,
+		'Thug Glasses': 14.28,
+		VR: 14.28,
 	},
+
 	Hat: {
-		Hat1: 10,
-		Hat2: 10,
-		Hat3: 10,
-		Hat4: 10,
-		Hat5: 10,
-		Hat6: 10,
-		Hat7: 10,
-		Hat8: 10,
-		Hat9: 10,
-		Hat10: 10,
+		'Angel Halo': 5.26,
+		'Beer Tank': 5.26,
+		Cables: 5.26,
+		'Cooker Hat': 5.26,
+		'Diamond Hoop': 5.26,
+		Frankenstein: 5.26,
+		Horns: 5.26,
+		Iroquois: 5.26,
+		'La costa Bucket Hat': 5.26,
+		'La costa Hat': 5.26,
+		'Miner Cap': 5.26,
+		None: 5.26,
+		'Old School Peaky Blinders': 5.26,
+		'Peaky Blinders': 5.26,
+		'Pirate Hat': 5.26,
+		'Skulls Bandana': 5.26,
+		'Soviet Hat': 5.26,
+		'Stargators Tag': 5.26,
+		'Stargaze Hat': 5.26,
 	},
+
 	Mouth: {
-		Mouth1: 10,
-		Mouth2: 10,
-		Mouth3: 10,
-		Mouth4: 10,
-		Mouth5: 10,
-		Mouth6: 10,
-		Mouth7: 10,
-		Mouth8: 10,
-		Mouth9: 10,
-		Mouth10: 10,
+		'Angry Roar': 11.11,
+		Angry: 11.11,
+		Fish: 11.11,
+		Golden: 11.11,
+		'Happy Tongue': 11.11,
+		Money: 11.11,
+		Ordinary: 11.11,
+		Saliva: 11.11,
+		Steak: 11.11,
+	},
+
+	Neck: {
+		Army: 20,
+		'Gold Chain': 20,
+		None: 20,
+		Tattoos: 20,
+		Tiger: 20,
+	},
+
+	Skin: {
+		Black: 12.5,
+		Blue: 12.5,
+		Brown: 12.5,
+		Diamond: 12.5,
+		Gold: 12.5,
+		Green: 12.5,
+		Pink: 12.5,
+		Red: 12.5,
 	},
 };
+
+let jedenJeden = {
+	'OG Gator': {
+		Background: 'OG BG',
+		Back: 'OG BACK',
+		Skin: 'OG SKIN',
+		Neck: 'OG NECK',
+		Eyes: 'OG EYES',
+		Mouth: 'OG MOUTH',
+		Hat: 'OG HAT',
+		Clothes: 'OG CLOTHES',
+		'Eyes Item': 'OG EYES ITEM',
+	},
+};
+
 let traitKolejnsc = {
 	1: 'Background',
-	2: 'Hat',
-	3: 'Genesis',
-	4: 'Clothes',
+	2: 'Back',
+	3: 'Skin',
+	4: 'Neck',
 	5: 'Eyes',
 	6: 'Mouth',
+	7: 'Hat',
+	8: 'Clothes',
+	9: 'Eyes Item',
 };
-let width = 250;
-let height = 250;
-let supply = 3;
+
+let numTraits = 9;
+let width = 1000;
+let height = 1000;
+let supply = 65;
+let newGenerationAdd = 0;
+let collectionName = 'Stargators';
+let collectionDescription = 'TEST';
+let jsonExt = '.json';
 
 // >> Modules
 const fs = require('fs');
 const express = require('express');
-const mergeImages = require('merge-images');
-const { createCanvas, loadImage } = require('canvas');
-const { generateKeyPairSync } = require('crypto');
 const colors = require('colors');
-
-// >> Imports
+const { createCanvas, loadImage } = require('canvas');
+var rimraf = require('rimraf');
 
 // >> Variables
 const app = express();
-let countGenerating = 0;
-let generateStartTime = 0;
-let traitsSupplyLeft = [];
-let freeNumbers = [];
-let generatedNfts = [];
 colors.setTheme({
 	mainTitle: ['yellow'],
 	generalTitle: ['brightYellow'],
@@ -109,6 +169,14 @@ colors.setTheme({
 	h2: ['white'],
 	error: ['red'],
 });
+
+let traitsSupplyLeft = [];
+let freeNumbers = [];
+let generatedMetadata = [];
+let generatedMetadataOneOOnes = [];
+let oneoneinfo = [];
+let generatedMetadataCorrect = [];
+let errorTimes = [];
 
 // >> Script
 // Starting
@@ -147,6 +215,8 @@ app.listen(8000, () => {
 
 // Load traits
 function loadTraits() {
+	newLines(2);
+	console.log('Loading traits...'.generalTitle);
 	let attributes = fs.readdirSync(`./attributes`);
 	let countTraits = 0;
 	let errorTraits = 0;
@@ -171,12 +241,17 @@ function loadTraits() {
 					(supply * (traitRarity / 100)).toFixed(0)
 				);
 				traitsSupplyLeft[attributeName][traitName] = traitSupply;
+				console.log(
+					`${attributeName}/${traitName}`.h1 + `: ${traitSupply}`.h2
+				);
 			} else {
 				errorTraits = errorTraits + 1;
 				errorTraitsString = `${errorTraitsString}${countTraits} - ./attributes/${attributeName}/${traitName}.png loading error, rarity not found!\n`;
 			}
 		}
 	}
+	newLines(2);
+	console.log('Traits info:'.generalTitle);
 	console.log(`Traits count: `.h1 + `${countTraits}`.h2);
 	console.log(`Success: `.h1 + `${countTraits - errorTraits}`.h2);
 	console.log(`Error: `.h1 + `${errorTraits}`.h2);
@@ -185,43 +260,66 @@ function loadTraits() {
 		console.log('Errored traits:'.generalTitle);
 		console.log(errorTraitsString.error);
 	}
-	newLines(1);
-	console.log(
-		`Generating will start in `.h1 +
-			`${(generateStartTime / 1000).toFixed(0)} `.h2 +
-			`seconds...`.h1
-	);
-	setTimeout(() => {
-		generateNfts();
-	}, generateStartTime);
+	generateMetadata();
 }
 
-// New lines writing
-const newLines = (number) => {
-	for (let i = 0; i < number; i++) console.log(' ');
-};
+// Load traits
+function generateMetadata() {
+	newLines(2);
+	console.log('restarting files...'.generalTitle);
 
-// New lines writing
-function generateNfts() {
-	console.log(`${supply} `.h2 + `NFT's generation started...`.h1);
+	if (fs.existsSync(`./generation`)) {
+		rimraf.sync('./generation');
+	}
+
+	if (fs.existsSync(`./generation`)) {
+	} else {
+		fs.mkdirSync('./generation/metadata', { recursive: true });
+	}
+
+	newLines(2);
+	console.log("generating 1o1's...".generalTitle);
+
+	let oneOnesLength = 0;
+	for (const [i, v] of Object.entries(jedenJeden)) {
+		oneOnesLength = oneOnesLength + 1;
+	}
+
+	for (let i = 0; i <= oneOnesLength; i++) {
+		let randNumber = Math.floor(Math.random() * supply);
+		let localCount = 0;
+
+		for (const [ijj, vjj] of Object.entries(jedenJeden)) {
+			localCount = localCount + 1;
+			if (localCount === i) {
+				oneoneinfo[ijj] = randNumber;
+				generatedMetadataOneOOnes[randNumber] = vjj;
+				generateOneOneMeta(randNumber);
+				fs.copyFile(
+					`./1o1s/${ijj}.png`,
+					`./generation/${randNumber}.png`,
+					(err) => {}
+				);
+			}
+		}
+	}
+
+	newLines(2);
+	console.log('Generating metadata...'.generalTitle);
 
 	// Firstly add all numbers into free numbers array
 	for (let i = 1; i <= supply; i++) {
 		freeNumbers.push(i);
 	}
 
-	// Pick random number and generate it
-	for (let i = 1; i <= supply; i++) {
-		let randomNumber =
-			freeNumbers[Math.floor(Math.random() * freeNumbers.length)];
-		let getIndex = freeNumbers.indexOf(randomNumber);
-		freeNumbers.splice(getIndex, 1);
-		generateOneNft(randomNumber);
-	}
+	// Generate #1
+	let randomNumber = freeNumbers[0];
+	let getIndex = freeNumbers.indexOf(randomNumber);
+	freeNumbers.splice(getIndex, 1);
+	generateOneMetadata(randomNumber);
 }
 
-// Generate one nft
-function generateOneNft(id) {
+function generateOneMetadata(randomNumber) {
 	let generatedNftTraits = [];
 	for (const [i, v] of Object.entries(traitKolejnsc)) {
 		let attributeLength = -1;
@@ -244,61 +342,319 @@ function generateOneNft(id) {
 	}
 
 	// Check same existing in saving
-	if (countGenerating === 0) {
-		generatedNfts[id] = generatedNftTraits;
-		countGenerating = countGenerating + 1;
+	let added = true;
+	if (randomNumber === 1) {
+		generatedMetadata[randomNumber] = generatedNftTraits;
 	} else {
-		let added = false;
-		for (const [i, v] of Object.entries(generatedNfts)) {
-			if (added === false) {
-				if (v === generatedNftTraits) {
-					generateOneNft(id);
-					console.log(`${id} GEN ERROR, RESTARTING`);
+		for (const [i, v] of Object.entries(generatedMetadata)) {
+			let same = true;
+			for (const [traitNumber, traitNameAttribute] of Object.entries(
+				traitKolejnsc
+			)) {
+				if (
+					v[traitNameAttribute] !==
+					generatedNftTraits[traitNameAttribute]
+				) {
+					same = false;
+				}
+			}
+
+			if (same === true) {
+				added = false;
+			}
+		}
+	}
+
+	if (added === false) {
+		if (errorTimes[randomNumber]) {
+			errorTimes[randomNumber] = errorTimes[randomNumber] + 1;
+		} else {
+			errorTimes[randomNumber] = 1;
+		}
+		if (errorTimes[randomNumber] <= 5) {
+			for (const [is, vs] of Object.entries(generatedNftTraits)) {
+				traitsSupplyLeft[is][vs] = traitsSupplyLeft[is][vs] + 1;
+			}
+			console.log(`ERROR ERROR ${randomNumber}`.h2 + ` ERROR ERROR`.h1);
+			generateOneMetadata(randomNumber);
+		} else {
+			for (const [is, vs] of Object.entries(generatedNftTraits)) {
+				traitsSupplyLeft[is][vs] = traitsSupplyLeft[is][vs] + 1;
+			}
+			console.log(`BIG ERROR ${randomNumber}`.h2 + ` BIG ERROR`.h1);
+			addEachRandomTraits();
+			generateOneMetadata(randomNumber);
+		}
+	} else {
+		generatedMetadata[randomNumber] = generatedNftTraits;
+		console.log(`${randomNumber}`.h2 + ` traits generated`.h1);
+
+		// Generate next metadata
+		let newRandomNumber =
+			freeNumbers[Math.floor(Math.random() * freeNumbers.length)];
+		if (newRandomNumber) {
+			let getIndex = freeNumbers.indexOf(newRandomNumber);
+			freeNumbers.splice(getIndex, 1);
+			generateOneMetadata(newRandomNumber);
+		} else {
+			generatePictures();
+		}
+	}
+}
+
+async function addEachRandomTraits() {
+	for (const [i, v] of Object.entries(traitKolejnsc)) {
+		let maxCountInThatTrait = Object.keys(traitsRarity[v]).length;
+		let randomNumber = Math.floor(Math.random() * maxCountInThatTrait);
+		let count = 0;
+
+		//add trait to free supply
+		for (const [traitI, traitV] of Object.entries(traitsRarity[v])) {
+			count = count + 1;
+			if (count === randomNumber) {
+				traitsSupplyLeft[v][traitI] = traitsSupplyLeft[v][traitI] + 1;
+			}
+		}
+	}
+}
+
+function generatePictures() {
+	newLines(2);
+	console.log('Generating arts:'.generalTitle);
+
+	freeNumbers = [];
+
+	// Firstly add all numbers into free numbers array
+	for (let i = 1; i <= supply; i++) {
+		freeNumbers.push(i);
+	}
+
+	// Delete add without 6 traits
+	for (const [i, v] of Object.entries(generatedMetadata)) {
+		let count = 0;
+		for (const [ii, vv] of Object.entries(v)) {
+			count = count + 1;
+		}
+		if (count === numTraits) {
+			generatedMetadataCorrect[i] = generatedMetadata[i];
+		} else {
+			console.log(`${i} error, generating neeeew lol`);
+			let localdata = generatedMetadata[i];
+			generatedMetadata[i] = [];
+			for (const [traitNumber, traitNameAttribute] of Object.entries(
+				traitKolejnsc
+			)) {
+				if (localdata[traitNameAttribute]) {
 				} else {
-					added = true;
-					generatedNfts[id] = generatedNftTraits;
-					countGenerating = countGenerating + 1;
-					console.log(`${id} traits generated`);
+					let maxCountInThatTrait = Object.keys(
+						traitsRarity[traitNameAttribute]
+					).length;
+
+					let randomNumber = Math.floor(
+						Math.random() * maxCountInThatTrait
+					);
+					let count = 0;
+
+					//add trait to free supply
+					for (const [traitI, traitV] of Object.entries(
+						traitsRarity[traitNameAttribute]
+					)) {
+						count = count + 1;
+						if (count === randomNumber) {
+							localdata[traitNameAttribute] = traitI;
+
+							for (const [
+								traitNumber,
+								traitNameAttribute,
+							] of Object.entries(traitKolejnsc)) {
+								generatedMetadata[i][traitNameAttribute] =
+									localdata[traitNameAttribute];
+							}
+
+							generatedMetadataCorrect[i] = generatedMetadata[i];
+						}
+					}
 				}
 			}
 		}
 	}
 
-	let canvas = createCanvas(width, height);
-	let context = canvas.getContext('2d');
-	let count = 0;
+	// Generate #1
+	let randomNumber = freeNumbers[0];
+	let getIndex = freeNumbers.indexOf(randomNumber);
+	freeNumbers.splice(getIndex, 1);
+	generateOnePicture(randomNumber);
+}
 
-	for (const [i, v] of Object.entries(generatedNftTraits)) {
-		count = count + 1;
-		if (count === 6) {
-			loadImage(`./attributes/${i}/${v}.png`).then((image) => {
-				context.drawImage(image, 0, 0, width, height);
-				const buffer = canvas.toBuffer('image/png');
-				fs.writeFileSync(`./generated/${id}.png`, buffer);
-				console.log(`${id} Generated`);
-			});
+function generateOnePicture(randomNumber) {
+	if (generatedMetadataCorrect[randomNumber]) {
+		if (fs.existsSync(`./generation/${randomNumber}.png`)) {
+			// Generate new
+			console.log(`!! ${randomNumber}`.h2 + ` IS 1O1 !!`.h1);
+			let newRandomNumber =
+				freeNumbers[Math.floor(Math.random() * freeNumbers.length)];
+			if (newRandomNumber) {
+				let getIndex = freeNumbers.indexOf(newRandomNumber);
+				freeNumbers.splice(getIndex, 1);
+				generateOnePicture(newRandomNumber);
+			} else {
+				generationEnded();
+			}
 		} else {
-			loadImage(`./attributes/${i}/${v}.png`).then((image) => {
-				context.drawImage(image, 0, 0, width, height);
-			});
+			let metadata = '{\n  "attributes": [\n';
+			let canvas = createCanvas(width, height);
+			let context = canvas.getContext('2d');
+			let count = 0;
+			let skin = '';
+
+			for (const [i, v] of Object.entries(
+				generatedMetadataCorrect[randomNumber]
+			)) {
+				count = count + 1;
+				if (count === numTraits) {
+					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    }\n`;
+					metadata = `${metadata}  ],\n  "description": "${collectionDescription}",\n`;
+					metadata = `${metadata}  "external_url": "https://example.com/?token_id=${
+						Number(randomNumber) + Number(newGenerationAdd)
+					}",\n`;
+					metadata = `${metadata}  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/${
+						Number(randomNumber) + Number(newGenerationAdd)
+					}.png",\n`;
+					metadata = `${metadata}  "name": "${collectionName} #${
+						Number(randomNumber) + Number(newGenerationAdd)
+					}"\n}`;
+					loadImage(`./attributes/${i}/${v}.png`).then((image) => {
+						context.drawImage(image, 0, 0, width, height);
+						const buffer = canvas.toBuffer('image/png');
+
+						//image
+						fs.writeFileSync(
+							`./generation/${
+								Number(randomNumber) + Number(newGenerationAdd)
+							}.png`,
+							buffer
+						);
+
+						//metadata
+						fs.writeFileSync(
+							`./generation/metadata/${
+								Number(randomNumber) + Number(newGenerationAdd)
+							}${jsonExt}`,
+							metadata
+						);
+						console.log(
+							`${Number(randomNumber) + Number(newGenerationAdd)}`
+								.h2 + ` image & metadata generated`.h1
+						);
+
+						// Generate new
+						let newRandomNumber =
+							freeNumbers[
+								Math.floor(Math.random() * freeNumbers.length)
+							];
+						if (newRandomNumber) {
+							let getIndex = freeNumbers.indexOf(newRandomNumber);
+							freeNumbers.splice(getIndex, 1);
+							generateOnePicture(newRandomNumber);
+						} else {
+							generationEnded();
+						}
+					});
+				} else if (count === 5) {
+					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+					loadImage(`./attributes/${i}/${skin}/${v}.png`).then(
+						(image) => {
+							context.drawImage(image, 0, 0, width, height);
+						}
+					);
+				} else if (count === 6) {
+					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+					loadImage(`./attributes/${i}/${skin}/${v}.png`).then(
+						(image) => {
+							context.drawImage(image, 0, 0, width, height);
+						}
+					);
+				} else if (count === 3) {
+					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+					loadImage(`./attributes/${i}/${v}.png`).then((image) => {
+						context.drawImage(image, 0, 0, width, height);
+					});
+					skin = v;
+				} else {
+					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+					loadImage(`./attributes/${i}/${v}.png`).then((image) => {
+						context.drawImage(image, 0, 0, width, height);
+					});
+				}
+			}
+		}
+	} else {
+		// Generate new
+		console.log(`!! ${randomNumber}`.h2 + ` image generation error !!`.h1);
+		let newRandomNumber =
+			freeNumbers[Math.floor(Math.random() * freeNumbers.length)];
+		if (newRandomNumber) {
+			let getIndex = freeNumbers.indexOf(newRandomNumber);
+			freeNumbers.splice(getIndex, 1);
+			generateOnePicture(newRandomNumber);
+		} else {
+			generationEnded();
 		}
 	}
+}
 
-	/*let canvas = createCanvas(width, height);
-	let context = canvas.getContext('2d');
-	loadImage(`./attributes/Background/Mint.png`).then((image) => {
-		context.drawImage(image, 0, 0, width, height);
-		const buffer = canvas.toBuffer('image/png');
-		fs.writeFileSync(`./generated/${id}_Background_Mint.png`, buffer);
-	});*/
+function generateOneOneMeta(randomNumber) {
+	let metadata = '{\n  "attributes": [\n';
+	let count = 0;
 
-	if (countGenerating === supply) {
-		generationEnded();
+	for (const [i, v] of Object.entries(
+		generatedMetadataOneOOnes[randomNumber]
+	)) {
+		count = count + 1;
+		if (count === numTraits) {
+			metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    }\n`;
+			metadata = `${metadata}  ],\n  "description": "${collectionDescription}",\n`;
+			metadata = `${metadata}  "external_url": "https://example.com/?token_id=${
+				Number(randomNumber) + Number(newGenerationAdd)
+			}",\n`;
+			metadata = `${metadata}  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/${
+				Number(randomNumber) + Number(newGenerationAdd)
+			}.png",\n`;
+			metadata = `${metadata}  "name": "${collectionName} #${
+				Number(randomNumber) + Number(newGenerationAdd)
+			}"\n}`;
+
+			//metadata
+			fs.writeFileSync(
+				`./generation/metadata/${
+					Number(randomNumber) + Number(newGenerationAdd)
+				}${jsonExt}`,
+				metadata
+			);
+			console.log(
+				`${Number(randomNumber) + Number(newGenerationAdd)}`.h2 +
+					` image & metadata generated`.h1
+			);
+		} else if (count === 3) {
+			metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+		} else if (count === 1) {
+			metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+		} else {
+			metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
+		}
 	}
 }
 
-// Generation ended, send some info
 function generationEnded() {
-	newLines(1);
-	console.log(`Generation ended!`.h1);
+	newLines(2);
+	console.log('Generating ended!'.generalTitle);
+
+	for (const [i, v] of Object.entries(oneoneinfo)) {
+		console.log(`${i}: ${v}`);
+	}
 }
+
+// New lines writing
+const newLines = (number) => {
+	for (let i = 0; i < number; i++) console.log(' ');
+};
