@@ -1,4 +1,4 @@
-Beta of nftGenerator coded by Zetty / Part of my portfolio
+NFT Generator coded by Zetty / Part of my portfolio
 
 ## Authors
 
