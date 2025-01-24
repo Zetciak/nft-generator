@@ -1,0 +1,32 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dark gray"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Thicc"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Gray shirt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sexy eyes"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Curly hair"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Shut up"
+    }
+  ],
+  "description": "COLLECTION DESC",
+  "external_url": "https://example.com/?token_id=26",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/26.png",
+  "name": "COLLECTION NAME #26"
+}

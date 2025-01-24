@@ -1,0 +1,32 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "2"
+    },
+    {
+      "trait_type": "Body",
+      "value": "test2"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Adidas"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blink"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Adidas"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grass"
+    }
+  ],
+  "description": "COLLECTION DESC",
+  "external_url": "https://example.com/?token_id=17",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/17.png",
+  "name": "COLLECTION NAME #17"
+}

@@ -1,0 +1,32 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "5"
+    },
+    {
+      "trait_type": "Body",
+      "value": "test3"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Argentina"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Closed"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Tail"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Toothpick"
+    }
+  ],
+  "description": "COLLECTION DESC",
+  "external_url": "https://example.com/?token_id=21",
+  "image": "ipfs://bafybeihgcghtl2b6ffv3sy7zfppj7goiphifxmoek4opgh3o4lbamk4lvm/images/21.png",
+  "name": "COLLECTION NAME #21"
+}

@@ -1,157 +1,73 @@
 // >> Config
 let traitsRarity = {
 	Background: {
-		Bamboo: 12.5,
-		City: 12.5,
-		Jungle: 12.5,
-		River: 12.5,
-		Safari: 12.5,
-		Space: 12.5,
-		Swamp: 12.5,
-		Waterfall: 12.5,
+		1: 20,
+		2: 20,
+		3: 20,
+		4: 20,
+		5: 20,
 	},
 
-	Back: {
-		'AK 47': 7.14,
-		Barbells: 7.14,
-		'Cosmo Rifle': 7.14,
-		'Dragon Pet': 7.14,
-		Drone: 7.14,
-		M4: 7.14,
-		Microphones: 7.14,
-		'Ninja swords': 7.14,
-		None: 7.14,
-		Rocket: 7.14,
-		Skis: 7.14,
-		Sniper: 7.14,
-		'Stargaze Flag': 7.14,
-		Tentacles: 7.14,
+	Body: {
+		Brown: 20,
+		Gold: 20,
+		test1: 20,
+		test2: 20,
+		test3: 20,
 	},
 
 	Clothes: {
-		'Baseball Jacket': 9.09,
-		'Bulletproof Vest': 9.09,
-		'Fury Hoodie': 9.09,
-		'Gray Hoodie': 9.09,
-		'Leather Jacket': 9.09,
-		'Military Uniform': 9.09,
-		'Puffer Vest': 9.09,
-		'StarGators Hoodie': 9.09,
-		'Streetwear Cloak': 9.09,
-		Suit: 9.09,
-		'Unzipped Hoodie': 9.09,
+		Adidas: 50,
+		Argentina: 50,
 	},
 
 	Eyes: {
-		Angry: 11.11,
-		Big: 11.11,
-		Bloodshot: 11.11,
-		Hypnotic: 11.11,
-		'K.O': 11.11,
-		Laser: 11.11,
-		Ordinary: 11.11,
-		//Pirate: 11.11,
-		Poker: 11.11,
+		Blink: 50,
+		Closed: 50,
 	},
 
-	'Eyes Item': {
-		'3D Glasses': 14.28,
-		'California Glasses': 14.28,
-		'Gators Glasses': 14.28,
-		'Night Vision': 14.28,
-		None: 14.28,
-		'Thug Glasses': 14.28,
-		VR: 14.28,
-	},
-
-	Hat: {
-		'Angel Halo': 5.26,
-		'Beer Tank': 5.26,
-		Cables: 5.26,
-		'Cooker Hat': 5.26,
-		'Diamond Hoop': 5.26,
-		Frankenstein: 5.26,
-		Horns: 5.26,
-		Iroquois: 5.26,
-		'La costa Bucket Hat': 5.26,
-		'La costa Hat': 5.26,
-		'Miner Cap': 5.26,
-		None: 5.26,
-		'Old School Peaky Blinders': 5.26,
-		'Peaky Blinders': 5.26,
-		'Pirate Hat': 5.26,
-		'Skulls Bandana': 5.26,
-		'Soviet Hat': 5.26,
-		'Stargators Tag': 5.26,
-		'Stargaze Hat': 5.26,
+	Head: {
+		Adidas: 50,
+		'Brown Tail': 50,
 	},
 
 	Mouth: {
-		'Angry Roar': 11.11,
-		Angry: 11.11,
-		Fish: 11.11,
-		Golden: 11.11,
-		'Happy Tongue': 11.11,
-		Money: 11.11,
-		Ordinary: 11.11,
-		Saliva: 11.11,
-		Steak: 11.11,
-	},
-
-	Neck: {
-		Army: 20,
-		'Gold Chain': 20,
-		None: 20,
-		Tattoos: 20,
-		Tiger: 20,
-	},
-
-	Skin: {
-		Black: 12.5,
-		Blue: 12.5,
-		Brown: 12.5,
-		Diamond: 12.5,
-		Gold: 12.5,
-		Green: 12.5,
-		Pink: 12.5,
-		Red: 12.5,
+		Grass: 20,
+		Happy: 20,
+		Normal: 20,
+		Tongue: 20,
+		Toothpick: 20,
 	},
 };
 
 let jedenJeden = {
-	'OG Gator': {
-		Background: 'OG BG',
-		Back: 'OG BACK',
-		Skin: 'OG SKIN',
-		Neck: 'OG NECK',
-		Eyes: 'OG EYES',
-		Mouth: 'OG MOUTH',
-		Hat: 'OG HAT',
-		Clothes: 'OG CLOTHES',
-		'Eyes Item': 'OG EYES ITEM',
+	Zetciak: {
+		Background: 'Dark gray',
+		Body: 'Thicc',
+		Clothes: 'Gray shirt',
+		Eyes: 'Sexy eyes',
+		Head: 'Curly hair',
+		Mouth: 'Shut up',
 	},
 };
 
-let traitKolejnsc = {
+let traitOrder = {
 	1: 'Background',
-	2: 'Back',
-	3: 'Skin',
-	4: 'Neck',
-	5: 'Eyes',
+	2: 'Body',
+	3: 'Clothes',
+	4: 'Eyes',
+	5: 'Head',
 	6: 'Mouth',
-	7: 'Hat',
-	8: 'Clothes',
-	9: 'Eyes Item',
 };
 
-let numTraits = 9;
-let width = 1000;
-let height = 1000;
-let supply = 65;
+let numTraits = 6;
+let width = 1500;
+let height = 1500;
+let supply = 30;
 let newGenerationAdd = 0;
-let collectionName = 'Stargators';
-let collectionDescription = 'TEST';
-let jsonExt = '.json';
+let collectionName = 'COLLECTION NAME';
+let collectionDescription = 'COLLECTION DESC';
+let jsonExt = '';
 
 // >> Modules
 const fs = require('fs');
@@ -181,7 +97,7 @@ let errorTimes = [];
 // >> Script
 // Starting
 app.listen(8000, () => {
-	process.title = 'NFT Generator by Zetty#0741';
+	process.title = 'NFT Generator by https://t.me/zetciak';
 	process.stdout.write('\033c');
 	console.clear();
 	newLines(2);
@@ -205,7 +121,7 @@ app.listen(8000, () => {
 		'██   ████ ██         ██         ██████  ███████ ██   ████ ███████ ██   ██ ██   ██    ██     ██████  ██   ██ '
 			.mainTitle
 	);
-	console.log('by Zetty#0741'.mainTitle);
+	console.log('by @Zetciak'.mainTitle);
 	newLines(2);
 	console.log('General info:'.generalTitle);
 	console.log(`Supply: `.h1 + `${supply}`.h2);
@@ -321,7 +237,7 @@ function generateMetadata() {
 
 function generateOneMetadata(randomNumber) {
 	let generatedNftTraits = [];
-	for (const [i, v] of Object.entries(traitKolejnsc)) {
+	for (const [i, v] of Object.entries(traitOrder)) {
 		let attributeLength = -1;
 		for (const [ai, av] of Object.entries(traitsSupplyLeft[v])) {
 			if (av > 0) {
@@ -349,7 +265,7 @@ function generateOneMetadata(randomNumber) {
 		for (const [i, v] of Object.entries(generatedMetadata)) {
 			let same = true;
 			for (const [traitNumber, traitNameAttribute] of Object.entries(
-				traitKolejnsc
+				traitOrder
 			)) {
 				if (
 					v[traitNameAttribute] !==
@@ -403,7 +319,7 @@ function generateOneMetadata(randomNumber) {
 }
 
 async function addEachRandomTraits() {
-	for (const [i, v] of Object.entries(traitKolejnsc)) {
+	for (const [i, v] of Object.entries(traitOrder)) {
 		let maxCountInThatTrait = Object.keys(traitsRarity[v]).length;
 		let randomNumber = Math.floor(Math.random() * maxCountInThatTrait);
 		let count = 0;
@@ -442,7 +358,7 @@ function generatePictures() {
 			let localdata = generatedMetadata[i];
 			generatedMetadata[i] = [];
 			for (const [traitNumber, traitNameAttribute] of Object.entries(
-				traitKolejnsc
+				traitOrder
 			)) {
 				if (localdata[traitNameAttribute]) {
 				} else {
@@ -466,7 +382,7 @@ function generatePictures() {
 							for (const [
 								traitNumber,
 								traitNameAttribute,
-							] of Object.entries(traitKolejnsc)) {
+							] of Object.entries(traitOrder)) {
 								generatedMetadata[i][traitNameAttribute] =
 									localdata[traitNameAttribute];
 							}
@@ -560,26 +476,6 @@ function generateOnePicture(randomNumber) {
 							generationEnded();
 						}
 					});
-				} else if (count === 5) {
-					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
-					loadImage(`./attributes/${i}/${skin}/${v}.png`).then(
-						(image) => {
-							context.drawImage(image, 0, 0, width, height);
-						}
-					);
-				} else if (count === 6) {
-					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
-					loadImage(`./attributes/${i}/${skin}/${v}.png`).then(
-						(image) => {
-							context.drawImage(image, 0, 0, width, height);
-						}
-					);
-				} else if (count === 3) {
-					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
-					loadImage(`./attributes/${i}/${v}.png`).then((image) => {
-						context.drawImage(image, 0, 0, width, height);
-					});
-					skin = v;
 				} else {
 					metadata = `${metadata}    {\n      "trait_type": "${i}",\n      "value": "${v}"\n    },\n`;
 					loadImage(`./attributes/${i}/${v}.png`).then((image) => {
